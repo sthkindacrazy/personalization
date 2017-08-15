@@ -1,0 +1,44 @@
+        #############
+        co = commit
+        ca = commit -a
+        cm = commit -m
+        #############
+        d = diff
+        #############
+        f = fetch
+        fo = fetch origin
+        fu = fetch upstream
+        g = grep -p
+        #############
+        ls = ls-files
+        lsf = "!git ls-files | grep -i"
+        #############
+        m = merge
+        #############
+        o = checkout
+        ob = checkout -b
+        #############
+        pr = prune -v
+        #############
+        ps = push
+        psf = push -f
+        psu = push -u
+        pso = push origin
+        #############
+        pl = pull
+        plu = pull -u
+        plo = pull origin
+        #############
+        rb = rebase
+        #############
+        r = remote
+        ra = remote add
+        rr = remote rm
+        rv = remote -v
+        rm = remote rename
+        #############
+        st = status
+        sb = status -s -b
+        #############
+        w = show
+        lg = log --color --graph --pretty=format:'%Cred%h%Creset -%C(yellow)%d%Creset %s %Cgreen(%cr) %C(bold blue)<%an>%Creset' --abbrev-commit
